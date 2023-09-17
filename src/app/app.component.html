@@ -1,0 +1,41 @@
+<p>{{nam}}</p><br>
+<p>{{mobi}}</p>
+<br>
+<table class="bor2">
+  <thead class="bor2">
+  <tr>
+    <th class="bor2">نام</th>
+    <th class="bor2">نام خانوادگی</th>
+    <th class="bor2"> شماره موبایل</th>
+    <th class="bor2">عکس</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr  *ngFor="let ader of aders">
+    <td class="bor2">{{ader.name}}</td>
+    <td class="bor2">{{ader.lastname}}</td>
+    <td class="bor2">{{ader.mobil}}</td>
+    <td class="bor2">{{ader.name}}</td>
+  </tr>
+  </tbody>
+</table>
+<br>
+<table class="bor2">
+  <thead class="bor2">
+  <tr>
+    <th class="bor2">نام</th>
+    <th class="bor2">نام خانوادگی</th>
+    <th class="bor2"> شماره موبایل</th>
+    <th class="bor2">عکس</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr  *ngFor="let good of goods">
+    <td class="bor2">{{good.name}}</td>
+    <td class="bor2">{{good.family}}</td>
+    <td class="bor2">{{good.family}}</td>
+    <td class="bor2">{{good.name}}</td>
+  </tr>
+  </tbody>
+</table>
+<br>
